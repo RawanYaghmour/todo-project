@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--link rel="stylesheet" href="style.css"!-->
+    <link rel="stylesheet" href="css/app.css"/>
     <style>
-        table, th, td {
-                border: 1px solid black;
-      }
-      img {
-        position: absolute;
-  left: 10px;
-  top: 250px;
-  size: 44px;
+       img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
     </style>
     
@@ -17,18 +16,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo Project</title>
 </head>
-<body>
+<body >
     <header>
-       <h1>Organize your work and life, finally</h1>
-       <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Page</a></li>
-        </ul>
-       </nav> 
+       <ul>
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="about.html">About</a></li>
+        <li style="float:right"><a class="active" href="footer.html">Contact</a></li>
+      </ul>
+
+      <br><br>
+      <br><br>
+      <br><br>
+
+      <div class="seven">
+        <h1>Dive into your to-do list adventure!</h1>
+      </div>
+
     </header>
     <main>
-        <table style="width:40%">
+ <br><br>
+        <table style="width:100%" >
             <thead>
                 <tr>
                     <th>Task</th>
@@ -38,30 +45,34 @@
             <tbody>
                 <tr>
                     <td>Search</td>
+                    <td> refers to the act of looking for specific information.</td>
+
                 </tr>
                 <tr>
                     <td>Document</td>
+                    <td>piece of information, like a paper or a digital file. It can be something you write, like a letter.</td>
+
                 </tr>
-                <tr>
+                <tr> 
                     <td>Training</td>
+                    <td>learning how to do something by practicing and getting better at it.</td>
+
                 </tr>
             </tbody>
         </table>
         <br><br><br><br>        
-        <img src="imges/istockphoto-.jpg" alt="profile picture" width="300px" height="300px">
+        <img src="imges/istockphoto-.jpg" alt="profile picture" >
 
     </main>
     <footer>
         <br><br><br><br>
-        <br><br><br><br>
-        <br><br><br><br>
-        <br><br><br><br>
 
         
-
-        Todo project 2024:
-         By Rawan_Yaghmour
+        <hr/>
+      <h3><a href="footer.html"> Todo project 2024:&copy;
+        By Rawan_Yaghmour </a> </h3> 
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

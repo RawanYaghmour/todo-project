@@ -1,0 +1,104 @@
+/* Style 7
+   ----------------------------- */
+   .seven h1 {
+    text-align: center;
+        font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+        text-transform: uppercase;
+    
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+    }
+    
+    .seven h1:after,.seven h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #c50000;
+        border-top: 1px solid #c50000;
+        height: 5px;
+      background-color:#f8f8f8;
+    }
+    
+
+
+  table{
+    background-color: #f2f2f2;
+    
+  }
+  table, th, td {
+    border: 2px solid black;
+    
+}
+
+
+
+label {
+width: 20%;
+height: 5%;
+
+}
+
+th {
+    background-color:#04AA6D;
+    color: white;
+    height:35px; ;
+
+  }
+
+  tr:hover {
+    background-color: rgb(212, 251, 206);
+  }
+  
+  td {
+    text-align: center;
+    height: 70px; ;
+  }
+  body{
+    background-color: rgb(237, 241, 189);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f0e9e9;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+    width: 20% ;
+    
+  }
+  
+  li a {
+    display: block;
+    color: 666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #04AA6D;
+  }
+  .active {
+    background-color: #c18e8e;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+ footer{
+background-color: rgb(237, 241, 189); 
+}
