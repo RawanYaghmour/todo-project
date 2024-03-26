@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo Project</title>
+    <link rel="stylesheet" href="css/app.css"/>
+
+    <style>
+       img {
+    display: block;
+    margin-right: auto;
+    height: 10%;
+    width: 25%;
+}
+    </style>
 </head>
 <body>
     <header>
-       <h1>About</h1>
-       <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Page</a></li>
-        </ul>
-       </nav> 
-    </header>
+         <li><a  href="index.html">Home</a></li>
+         <li><a  href="about.html">About</a></li>
+         <li style="float:right"><a class="active" href="footer.html">Contact</a></li>
+       </ul>
+ 
+       <br><br>
+       <br><br>
+       <br><br>
+ 
+       <div class="seven">
+         <h1>Start here to conquer your day!</h1>
+       </div>
+ 
+     </header>
     <main>
-        <img src="imges/IMG_3814.JPG" alt="profile picture" width="128px" height="128px">
+        <img class="about" src="imges/IMG_3814.JPG" alt="profile picture" >
         <div class="card">
             <h1>Rawan Yaghmour</h1>
             <p class="title">Rawan.yag02@gmail.com</p>
@@ -31,8 +48,8 @@
          
 <hr/>
 <br>
-        <form>
-            <label for="fname">Entar name:</label><br>
+        <form >
+            <label for="fname" >Entar name:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Entar Email:</label><br>
             <input type="text" id="lname" name="lname"><br>
@@ -44,9 +61,9 @@
     </main>
     <footer>
         <br><br><br><br>        
-
-        Todo project 2024:
-         By Rawan_Yaghmour
+        <hr/>
+        <h3><a href="footer.html"> Todo project 2024:&copy;
+          By Rawan_Yaghmour </a> </h3> 
     </footer>
 </body>
 
