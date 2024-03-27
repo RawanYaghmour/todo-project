@@ -1,3 +1,4 @@
+'use strect';
 var num1=7;
 var num2=6;
 console.log(num1+num2);
@@ -24,7 +25,41 @@ if(!confermMessage){
 }
  
 }
+// <------------------ lab-06 ------------------>
 
- 
+function askQuestion(number) {
+    var answer;
+    if(number==1){
+         answer = prompt("do you love pitza? " + " (Yes/No)");
+    }
+    else if(number==2){
+         answer = prompt("do you love mansaf? " + " (Yes/No)");
+    }
+    else{
+         answer = prompt("do you love eag? " + " (Yes/No)");
+    }
+
+
+    if (answer !== "yes" && answer !== "no") {
+        answer = "Invalid input";
+    }
+    return answer;
+}
+
+function puttingInArray() {
+    let gatharingArray = [];
+    for (let i = 0; i < 3; i++) {
+        let answer = askQuestion(i+1);
+        gatharingArray.push(answer );
+    }
+    return gatharingArray;
+}
+
+function printResponses(array) {
+    console.log(array);
+}
+
+let responses = puttingInArray();
+printResponses(responses);
   
 
