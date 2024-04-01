@@ -1,3 +1,3 @@
-[submodule "external/submodule"]
-	path = external/submodule
-	url = https://github.com/RawanYaghmour/todo-project
+[submodule "todo-project"]
+path = todo-project
+url = https://github.com/RawanYaghmour/todo-project
